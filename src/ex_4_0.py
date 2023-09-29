@@ -15,7 +15,7 @@ def get_shutdown_events(logfile):
     """
     with open(logfile, 'r') as log_file_reader:
     
-    lines = log_file_reader.read()
+        lines = log_file_reader.read()
     
     lines_splt = lines.splitlines()
     
